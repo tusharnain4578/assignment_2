@@ -1,0 +1,78 @@
+// /* To learn more about this file see: https://angular.io/config/tsconfig. */
+// {
+//   "compileOnSave": false,
+//   "compilerOptions": {
+//     "outDir": "./dist/out-tsc",
+//     "forceConsistentCasingInFileNames": true,
+//     "strict": true,
+//     "noImplicitOverride": true,
+//     "noPropertyAccessFromIndexSignature": true,
+//     "noImplicitReturns": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "sourceMap": true,
+//     "declaration": false,
+//     "experimentalDecorators": true,
+//     "moduleResolution": "node",
+//     "importHelpers": true,
+//     "target": "ES2022",
+//     "module": "ES2022",
+//     "useDefineForClassFields": false,
+//     "lib": [
+//       "ES2022",
+//       "dom"
+//     ]
+//   },
+//   "angularCompilerOptions": {
+//     "enableI18nLegacyMessageIdFormat": false,
+//     "strictInjectionParameters": true,
+//     "strictInputAccessModifiers": true,
+//     "strictTemplates": true
+//   }
+// }
+
+
+
+
+
+
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc", // Specifies the output directory for compiled files.
+    "forceConsistentCasingInFileNames": true, // Ensures that filenames are consistently cased.
+    "strict": true, // Enables all strict type-checking options.
+    "noImplicitOverride": true, // Disallows overriding methods that are not explicitly marked as overrides.
+    "noPropertyAccessFromIndexSignature": true, // Disallows property access using index signatures.
+    "noImplicitReturns": true, // Ensures that all code paths return a value.
+    "noFallthroughCasesInSwitch": true, // Checks for fallthrough cases in switch statements.
+    "skipLibCheck": true, // Skips type checking of all declaration files (*.d.ts).
+    "esModuleInterop": true, // Allows importing CommonJS modules as default imports.
+    "sourceMap": true, // Generates source maps for debugging.
+    "declaration": false, // Generates corresponding .d.ts files for JavaScript files.
+    "experimentalDecorators": true, // Enables support for experimental decorators.
+    "moduleResolution": "node", // Specifies module resolution strategy.
+    "importHelpers": true, // Imports TypeScript helper functions from tslib.
+    "target": "ES2022", // Specifies ECMAScript target version.
+    "module": "ES2022", // Specifies module code generation.
+    "useDefineForClassFields": false, // Uses property initialization syntax instead of Object.defineProperty.
+    "lib": [
+      "ES2022",
+      "dom"
+    ] // Specifies the default library files to be included in the compilation.
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false, // Disables legacy message ID format for i18n.
+    "strictInjectionParameters": true, // Enforces strictness in injection parameters.
+    "strictInputAccessModifiers": true, // Enforces strictness in input access modifiers.
+    "strictTemplates": true // Enforces strictness in template type checking.
+  },
+  "include": [
+    "src/**/*.ts", // Includes TypeScript files in the src directory and all of its subdirectories.
+    "src/environments/environment.ts" // Includes the environment.ts file.
+  ],
+  "exclude": [
+    "node_modules" // Excludes the node_modules directory from compilation.
+  ]
+}
